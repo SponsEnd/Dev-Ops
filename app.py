@@ -13,5 +13,5 @@ def hello_world():
 def send_request():
     transcript = request.args.get("id")
     print(transcript)
-    requests.get("http://192.168.176.121:5000/sponsor?id={transcript}")
+    requests.get("http://sponsend1.pagekite.me/sponsor?id={transcript}")
     return "<p>Hello, World!</p>"
